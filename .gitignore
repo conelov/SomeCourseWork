@@ -1,0 +1,7 @@
+mapex
+cmake-build-*
+bin
+lib
+.idea
+.clang-format
+/evolutionTrees3/legacy
