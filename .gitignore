@@ -1,7 +1,11 @@
 mapex
-cmake-build-*
+courseWorkT3
 bin
 lib
 .idea
 .clang-format
 /evolutionTrees3/legacy
+cmake-build-*
+!/courseWorkD3/bin/
+!/courseWorkD3/bin/O.png
+!/courseWorkD3/bin/X.png

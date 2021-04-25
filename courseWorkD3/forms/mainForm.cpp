@@ -58,7 +58,7 @@ QLineEdit* MainForm::createLineEdit(const QString litera, const QString mask) co
 
 MainForm::MainForm(QWidget* parent)
     : QMainWindow(parent), ui(new Ui::MainWindow), lineEdit_W(createLineEdit("W")), lineEdit_H(createLineEdit("H")),
-      lineEdit_nWin(createLineEdit("Win", "9")), pmX(QPixmap("./X.jpg")), pmO(QPixmap("./O.jpg")),
+      lineEdit_nWin(createLineEdit("Win", "9")), pmX(QPixmap("./X.png")), pmO(QPixmap("./O.png")),
       labelPlayer(new QLabel(" Xодит игрок X", this)) {
   ui->setupUi(this);
   ui->toolBar->addWidget(lineEdit_W);
